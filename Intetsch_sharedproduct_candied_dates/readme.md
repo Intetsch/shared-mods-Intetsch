@@ -2,7 +2,7 @@
 
 Adds a new product: Candied Dates
 
-![icon_candied_dates.png](https://raw.githubusercontent.com/Intetsch/shared-mods-Intetsch/e2c9a481b68e9898dd64275ced550f4406774697/Intetsch_sharedproduct_spiced_tea/data/modgraphics/ui/icon_spiced_tea.png)
+![icon_candied_dates.png](https://raw.githubusercontent.com/Intetsch/shared-mods-Intetsch/refs/heads/main/Intetsch_sharedproduct_candied_dates/data/modgraphics/ui/icon_candied_dates.png)
 
 ### GUIDs
 
