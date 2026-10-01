@@ -4,11 +4,11 @@ Adds new products:
 
 **Pistachio Fruits**
 
-![icon_pistachio_fruits.png](https://raw.githubusercontent.com/Intetsch/shared-mods-Intetsch/27e712c9ade29874f00725c5c55c8d971556a44f/Intetsch_sharedproduct_palm_wood/data/modgraphics/ui/icon_palm_planks.png)
+![icon_pistachio_fruits.png](https://raw.githubusercontent.com/Intetsch/shared-mods-Intetsch/refs/heads/main/Intetsch_sharedproduct_pistachios/data/modgraphics/ui/icon_pistachio_fruits.png)
 
 **Roasted Pistachios**
 
-![icon_roasted_pistachios.png](https://raw.githubusercontent.com/Intetsch/shared-mods-Intetsch/27e712c9ade29874f00725c5c55c8d971556a44f/Intetsch_sharedproduct_palm_wood/data/modgraphics/ui/icon_palm_planks.png)
+![icon_roasted_pistachios.png](https://raw.githubusercontent.com/Intetsch/shared-mods-Intetsch/refs/heads/main/Intetsch_sharedproduct_pistachios/data/modgraphics/ui/icon_roasted_pistachios.png)
 
 ### GUIDs
 
