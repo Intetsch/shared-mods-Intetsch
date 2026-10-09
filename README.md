@@ -56,7 +56,7 @@ Add the following dependencies to your `modinfo.json`:
 
 Adds a new product: Spiced Tea
 
-![icon_spiced_tea.png](https://raw.githubusercontent.com/Intetsch/shared-mods-Intetsch/e2c9a481b68e9898dd64275ced550f4406774697/Intetsch_sharedproduct_spiced_tea/data/modgraphics/ui/icon_spiced_tea.png)
+![icon_spiced_tea.png](https://raw.githubusercontent.com/Intetsch/shared-mods-Intetsch/0c7e266e8c3c65a859f992b8f27dbb31acd9bad4/Intetsch_sharedproduct_spiced_tea/data/modgraphics/ui/icon_spiced_tea.png)
 
 ### GUIDs
 
