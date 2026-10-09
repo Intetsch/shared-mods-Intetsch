@@ -1,9 +1,6 @@
 name: Release Folders as zip
 
 on:
-  push:
-    tags:
-      - "v*"
   workflow_dispatch:
     inputs:
       tag:
