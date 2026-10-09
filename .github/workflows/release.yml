@@ -1,0 +1,45 @@
+name: Release Folders as zip
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Version/Tag (z. B. v1.0.0)"
+        required: true
+        type: string
+      draft:
+        description: "Als Draft erstellen"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Zip folders
+        run: |
+          OUT="$RUNNER_TEMP/dist"
+          mkdir -p "$OUT"
+          for dir in */; do
+            name="${dir%/}"
+            zip -r "$OUT/${name}.zip" "$name"
+          done
+          ls -l "$OUT"
+
+      - name: Create release and upload zip
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ inputs.tag || github.ref_name }}
+          DRAFT: ${{ inputs.draft && '--draft' || '' }}
+        run: |
+          gh release create "$TAG" "$RUNNER_TEMP"/dist/*.zip \
+            --title "$TAG" \
+            --target "$GITHUB_SHA" \
+            --generate-notes \
+            $DRAFT
